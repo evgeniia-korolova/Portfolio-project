@@ -1,60 +1,105 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 :root {
-   --branding-color:#6C63FF;
-   --heading-font-family:'Playfair Display', serif;
-   --default-font-family:'Poppins', sans-serif;
-   --main-bg: rgb(254, 244, 230);
+  --branding-color: #6c63ff;
+  --heading-font-family: 'Playfair Display', serif;
+  --default-font-family: 'Poppins', sans-serif;
+  --main-bg: rgb(254, 244, 230);
 }
 
 body {
-   font-family: var(--default-font-family);
+  font-family: var(--default-font-family);
 }
 .hero {
-   background: var(--main-bg);
-   text-align: center;
-   padding: 160px 20px;
+  background: var(--main-bg);
+  text-align: center;
+  padding: 160px 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-   font-family: var(--heading-font-family);
-   color: black;
-   font-weight: bold;
-}
-
-
-p {
-font-weight: normal;
-}
-
-.hero p {
-  
-   font-size: 36px;
-   font-weight: bold;
-   margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: black;
+  font-weight: bold;
 }
 
 h1 {
-   font-size: 96px;
-   font-weight: bold;
+  font-size: 96px;  
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #272142;
+  line-height: 1.8;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 24px; 
+  font-size: 24px;
   line-height: 2;
   color: #272142;
 }
 
 .btn-branding {
-background: var(--branding-color);
-border-radius: 4px;
-padding: 18px 30px;
-color: #FFFFFF;
-font-family: var(--default-font-family);
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 1.5;
+  background: var(--branding-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  color: #ffffff;
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  padding: 120px 49px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+  h2 {
+   font-size: 44px;
+  }
+  .hero {
+   padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 28px;
+    
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
