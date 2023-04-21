@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif; */
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Poppins', sans-serif;
   --main-bg: rgb(254, 244, 230);
+  --secondary-bg: rgb(122, 107, 77);
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   background: var(--main-bg);
   text-align: center;
   padding: 160px 20px;
+}
+
+.navbar{
+  max-height: 80px;
 }
 
 h1,
