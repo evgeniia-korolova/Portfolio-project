@@ -85,9 +85,9 @@ p {
   border: 2px solid var(--branding-color);
 }
 
-.project-description {
+/* .project-description {
   padding: 120px 49px;
-}
+} */
 
 #mail {
   font-size: 28px;
@@ -100,28 +100,40 @@ p {
   color: var(--accent-color);
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
   
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section p {
+.content-container p {
   font-size: 14px;
-  font-family: var(--default-font-family)
+  font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {  
+  font-size: 14px;
 }
 
 footer a {
@@ -133,6 +145,7 @@ footer p a {
 }
 i {
    padding: 10px;
+   font-size: 30px;
 }
 
 @media (max-width: 900px) {
@@ -152,7 +165,7 @@ i {
     
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 60px;
   }
