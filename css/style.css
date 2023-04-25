@@ -101,11 +101,11 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content-container h1 {
-  font-size: 64px;
+  font-size: 36px;
   line-height: 1.5;
   
 }
@@ -135,6 +135,12 @@ p {
 .content p {  
   font-size: 14px;
 }
+
+.contacts-wrap {
+  width: 600px;
+  margin-left: 350px;
+}
+
 
 footer a {
   text-decoration: none;
