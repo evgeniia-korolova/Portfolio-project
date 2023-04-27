@@ -13,15 +13,66 @@ body {
   font-family: var(--default-font-family);
   margin-bottom: 10px;
 }
+
+nav {
+    background: var(--secondary-bg);
+  }
+
+  nav ul{
+    display: inline;
+  }
+
+  nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+  }
+  li a,
+  .dropdown-item
+  {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--background-color);
+    transition: all 100ms ease-in-out;
+  }
+  li a:hover{
+    color: var(--accent-color);
+  }
+  .dropdown-item:hover{
+    color: var(--accent-color);
+  }
+  .active{
+    color: var(--accent-color);
+    font-weight: 500;
+  }
+  .dropdown-menu{
+    background: var(--secondary-color);
+  }
+  .dropdown-end .active{
+    background: var(--secondary-color);
+    color: var(--accent-color);
+    font-weight: 500;
+
+  }
+  .dropdown-toggle{
+    border: none;
+    text-decoration-skip: none;
+  }
+  .dropdown-toggle:focus{
+    outline: none;
+
+  }
+  .dropdown-toggle::after{
+    display: none;
+  }
 .hero {
   background: var(--main-bg);
   text-align: center;
-  padding: 160px 20px;
+  padding: 200px 20px;
 }
 
-.navbar {
-  max-height: 80px;
-}
+
 
 h1,
 h2,
@@ -138,9 +189,8 @@ p {
 
 .contacts-wrap {
   width: 600px;
-  margin-left: 350px;
+  margin-left: 370px;
 }
-
 
 footer a {
   text-decoration: none;
@@ -149,6 +199,7 @@ footer a {
 footer p a {
   color: var(--accent-color);
 }
+
 i {
    padding: 10px;
    font-size: 30px;
