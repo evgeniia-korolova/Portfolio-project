@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif; */
   --main-bg: rgb(254, 244, 230);
   --secondary-bg: rgb(214, 167, 144);
   --accent-color:rgb(255, 89, 15);
+  --main-color:rgb(0, 0, 0);
 }
 
 body {
@@ -18,28 +19,28 @@ nav {
     background: var(--secondary-bg);
   }
 
-  nav ul{
+nav ul{
     display: inline;
   }
 
-  nav li{
+nav li{
     display: inline;
     list-style: none;
     margin-left: 20px;
   }
-  li a,
+li a,
   .dropdown-item
   {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--main-color);
     transition: all 100ms ease-in-out;
   }
-  li a:hover{
+li a:hover{
     color: var(--accent-color);
   }
-  .dropdown-item:hover{
+.dropdown-item:hover{
     color: var(--accent-color);
   }
   .active{
@@ -47,10 +48,12 @@ nav {
     font-weight: 500;
   }
   .dropdown-menu{
-    background: var(--secondary-color);
+    background: var(--main-bg);
   }
+
+  
   .dropdown-end .active{
-    background: var(--secondary-color);
+    background: var(--secondary-bg);
     color: var(--accent-color);
     font-weight: 500;
 
@@ -66,6 +69,7 @@ nav {
   .dropdown-toggle::after{
     display: none;
   }
+  
 .hero {
   background: var(--main-bg);
   text-align: center;
@@ -152,6 +156,7 @@ p {
 }
 
 .content-container {
+  margin-top: 100px;
   padding: 80px 20px;
 }
 
@@ -187,10 +192,7 @@ p {
   font-size: 14px;
 }
 
-.contacts-wrap {
-  width: 600px;
-  margin-left: 370px;
-}
+
 
 footer a {
   text-decoration: none;
@@ -215,7 +217,8 @@ i {
    font-size: 44px;
   }
   .hero {
-   padding: 80px 20px;
+   margin-top: 80px;
+   padding: 220px 20px;
   }
   .hero p {
     font-size: 28px;
@@ -224,7 +227,15 @@ i {
 
   .content {
     text-align: center;
-    padding: 60px;
+    padding: 20px;    
+  }
+
+  .content img {
+    margin-bottom: 10px;
+  }
+
+  .content-container {   
+    padding-top: 140px;
   }
 
   .project-description {
