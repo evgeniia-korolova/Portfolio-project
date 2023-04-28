@@ -73,7 +73,7 @@ li a:hover{
 .hero {
   background: var(--main-bg);
   text-align: center;
-  padding: 200px 20px;
+  padding: 100px 20px;
 }
 
 h1,
@@ -96,8 +96,16 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 h4 {
   font-size: 48px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 p {
@@ -147,7 +155,7 @@ p {
 } */
 
 #mail {
-  font-size: 28px;
+  font-size: 24px;
     margin-bottom: 20px;
     text-decoration: none;
     color: #272142;
@@ -159,7 +167,7 @@ p {
 
 .content-container {
   margin-top: 100px;
-  padding: 80px 20px;
+  padding: 20px 20px;
 }
 
 .content-container h1 {
@@ -244,6 +252,7 @@ footer .social-links a:hover {
    margin-top: 80px;
    padding: 220px 20px;
   }
+
   .hero p {
     font-size: 28px;
     
