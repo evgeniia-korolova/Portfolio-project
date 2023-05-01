@@ -141,6 +141,10 @@ p {
   line-height: 1.5;
 }
 
+.btn-branding:hover {
+  border: 2px solid var(--branding-color);
+}
+
 .btn-branding-outline {
   font-size: 18px;
   line-height: 1.5;
@@ -148,6 +152,11 @@ p {
   border-radius: 4px;
   color: var(--branding-color);
   border: 2px solid var(--branding-color);
+}
+
+.btn-branding-outline:hover {
+  background: var(--secondary-bg);
+  color: #fff;
 }
 
 /* .project-description {
@@ -216,6 +225,18 @@ footer p a {
   color: var(--accent-color);
 }
 
+#go-top {
+  background: var(--secondary-bg);
+  border: none;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+#go-top:hover {
+  background: var(--main-bg);
+  transform: scale(1.1);
+}
+
 footer .social-links a {
   text-decoration: none;
   margin: 0 25px;
@@ -230,8 +251,7 @@ footer .social-links a:hover {
   color: var(--accent-color);
   background: var(--secondary-bg);
   transition: all ease-in-out 150ms;
-  font-size: 28px;
-  padding: 6px 18px;
+  transform: scale(1.1);
 }
 
 @media (max-width: 900px) {
