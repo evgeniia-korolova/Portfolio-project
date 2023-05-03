@@ -1,7 +1,7 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 :root {
-  --branding-color: rgb(171, 122, 98);
+  --branding-color: rgb(214, 167, 144);
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: 'Poppins', sans-serif;
   --main-bg: rgb(254, 244, 230);
@@ -53,7 +53,7 @@ li a:hover{
 
   
   .dropdown-end .active{
-    background: var(--secondary-bg);
+    background: var(--branding-color);
     color: var(--accent-color);
     font-weight: 500;
 
@@ -130,7 +130,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--secondary-bg);
+  background: var(--branding-color);
   border-radius: 4px;
   padding: 18px 30px;
   color: #ffffff;
@@ -142,7 +142,7 @@ p {
 }
 
 .btn-branding:hover {
-  border: 2px solid var(--branding-color);
+  border: 2px solid var(--branding-color);  
 }
 
 .btn-branding-outline {
@@ -155,8 +155,8 @@ p {
 }
 
 .btn-branding-outline:hover {
-  background: var(--secondary-bg);
-  color: #fff;
+  background: var(--branding-color);
+  color: #ffffff;
 }
 
 /* .project-description {
@@ -226,7 +226,7 @@ footer p a {
 }
 
 #go-top {
-  background: var(--secondary-bg);
+  background: var(--branding-color);
   border: none;
   border-radius: 5px;
   transition: all 200ms ease-in-out;
@@ -249,7 +249,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: var(--accent-color);
-  background: var(--secondary-bg);
+  background: var(--branding-color);
   transition: all ease-in-out 150ms;
   transform: scale(1.1);
 }
